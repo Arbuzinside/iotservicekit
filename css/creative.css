@@ -187,7 +187,13 @@ header.masthead {
 
 
 
+.icon{
+  display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
 
+}
 
 .row.normal{
   height: 40vh;
@@ -208,7 +214,7 @@ header.masthead {
      flex-direction: column;
      border-style: solid;
      border-color: white;
-     border-width: 1px;
+     border-width: 0px;
      
 }
 
@@ -218,12 +224,13 @@ header.masthead {
 }
 
 
+
 .content-bottom{
 
   overflow: hidden;
   display: flex;
   justify-content: flex-end;
-  align-items: flex-end; 
+  align-items: flex-start; 
   padding: 20px;
 }
 
