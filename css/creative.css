@@ -48,15 +48,9 @@ a {
   color: rgba(255, 255, 255, 0.7); }
 
 section {
-  display: flex;
   padding: 0; 
-   flex-direction: column;}
+ }
 
-   section > div{
-
-  /* these are the flex items */
-  flex: 1;
-   }
 
 .section-heading {
   margin-top: 0; }
