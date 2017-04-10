@@ -17,6 +17,8 @@
     src: url('../fonts/Futurice-Regular.otf'); /*URL to font*/
 }
 
+
+
 html,
 body {
   height: 100%;
@@ -56,7 +58,8 @@ section {
   margin-top: 0; }
 
 .no-padding {
-  padding: 0; }
+  padding: 0;
+  margin: 4px; }
 
 ::-moz-selection {
   color: white;
@@ -127,6 +130,12 @@ body {
         #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
         #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
           color: white; }
+          span.border {
+              padding:5px;
+              border-style: solid;
+              border-color: white;
+              border-width: 1.5px;
+        }
       #mainNav.navbar-shrink {
         background-color: white;
         border-color: rgba(34, 34, 34, 0.05); }
@@ -140,7 +149,12 @@ body {
           color: #222222; }
           #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
           #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-            color: #F05F40; } }
+            color: #F05F40; }
+            
+
+
+            
+             }
 
 header.masthead {
   position: relative;
@@ -239,6 +253,24 @@ header.masthead {
   height: 40vh;
 }
 
+.row.normal col p.text-section-title {
+  max-width: 1000px;
+}
+
+
+.row.f{
+  height: 35vh;
+  display:flex;
+  flex-direction: column; 
+}
+
+.row.twenty{
+  height: 25vh;
+  display:flex;
+  flex-direction: column; 
+}
+
+
 
 
 .row.half{
@@ -259,6 +291,8 @@ header.masthead {
     
       
 }
+
+
 
  .row > [class*='col'].border {
      border-style: solid;
@@ -286,6 +320,10 @@ header.masthead {
 .content-up{
     padding: 20px;
     overflow: hidden;
+}
+@media (min-width: 1000px) {
+    padding: 100px;
+
 }
 
 .content-bottom{
@@ -373,14 +411,14 @@ div.center-cropped img {
 
 .textA-slim {
     font-family: 'Futurice-Regular';
-    font-size: 22px;
-    line-height: 26px;
+    font-size: 18px;
+    line-height: 20px;
 }
 
 .textA-Bold-slim {
     font-family: 'Futurice-Bold';
-    font-size: 32px;
-    line-height: 36px;
+    font-size: 28px;
+    line-height: 32px;
 }
 
 .textA-Bold {
