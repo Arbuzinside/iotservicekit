@@ -87,7 +87,7 @@ body {
       #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
       #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
         background-color: transparent; }
-  @media (min-width: 992px) {
+  @media (min-width: 720px) {
     #mainNav {
       background-color: transparent;
       border-color: rgba(255, 255, 255, 0.3); }
@@ -149,9 +149,11 @@ header.masthead {
       font-weight: 700;
       margin-top: 0;
       margin-bottom: 0;
-      font-size: 30px; }
+       font-family: 'Futurice-Bold';
+        font-size: 26px;
+          line-height: 36px; }
     
-  @media (min-width: 768px) {
+  @media (min-width: 720px) {
     header.masthead {
       height: 100%;
       min-height: 600px; }
@@ -273,10 +275,7 @@ header.masthead {
     padding: 20px;
     overflow: hidden;
 }
-@media (min-width: 1000px) {
-    padding: 100px;
 
-}
 
 .content-bottom{
 
@@ -342,18 +341,20 @@ div.center-cropped img {
   color: #333333;
 }
 
+
+
 .text-section-title{
     font-family: 'Futurice-Bold';
     font-size: 48px;
     line-height: 60px;
-}
+
+  }
 
 .textA {
     font-family: 'Futurice-Regular';
     font-size: 22px;
     line-height: 32px;
 }
-
 .textA-slim {
     font-family: 'Futurice-Regular';
     font-size: 18px;
@@ -404,6 +405,73 @@ div.center-cropped img {
 
 
 }
+
+
+@media only screen and (max-width: 720px) {
+
+  .text-section-title{
+
+    font-family: 'Futurice-Bold';
+    font-size: 24px;
+    line-height: 30px;
+
+  }
+
+  .textA {
+    font-family: 'Futurice-Regular';
+    font-size: 12px;
+    line-height: 16px;
+}
+
+
+.textA-slim {
+    font-family: 'Futurice-Regular';
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.textA-Bold-slim {
+    font-family: 'Futurice-Bold';
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.textA-Bold {
+    font-family: 'Futurice-Bold';
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.textB {
+    font-family: 'Futurice-Regular';
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.titleB{
+
+  font-family: 'Futurice-Regular';
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.text-label{
+  font-family: 'Futurice-Bold';
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.text-closing{
+  font-family: 'Futurice-Regular';
+  font-size: 24px;
+  line-height: 30px;
+}
+
+
+
+}
+
+
 
 
 
