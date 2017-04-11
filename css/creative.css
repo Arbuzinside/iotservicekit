@@ -39,45 +39,16 @@ a {
     color: #f05f40; }
 
 
-.bg-primary {
-  background-color: #F05F40 !important; }
-
-.bg-dark {
-  background-color: #222222 !important;
-  color: white; }
-
-.text-faded {
-  color: rgba(255, 255, 255, 0.7); }
 
 section {
   padding: 0; 
  }
 
 
-.section-heading {
-  margin-top: 0; }
-
 .no-padding {
   padding: 0;
   margin: 4px; }
 
-::-moz-selection {
-  color: white;
-  text-shadow: none;
-  background: #222222; }
-
-::selection {
-  color: white;
-  text-shadow: none;
-  background: #222222; }
-
-img::selection {
-  color: white;
-  background: transparent; }
-
-img::-moz-selection {
-  color: white;
-  background: transparent; }
 
 body {
   -webkit-tap-highlight-color: #222222; }
@@ -248,73 +219,49 @@ header.masthead {
    <--------------------------- Row options ------------------------------------>
 */
 
-.row.normal{
-  display: flex;
+.row.normal > [class*='col'] {
   height: 40vh;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.row.normal col p.text-section-title {
-  max-width: 1000px;
-}
-
-.row.normal col p.text-section-title {
-  max-width: 1000px;
-}
-
-
-
-
-.row.f{
+.row.double > [class*='col'] [class='row f'] > [class*='col']  {
   height: 35vh;
-  display:flex;
-  flex-direction: column; 
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.row.twenty{
+
+.row.double > [class*='col'] > [class='row f']  {
+  height: 35vh;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.row.double > [class*='col']  [class='row twenty']  {
   height: 25vh;
-  display:flex;
-  flex-direction: column; 
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row.double > [class*='col'] [class='row twenty'] > [class*='col']  {
+  height: 25vh;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 
-
-
-.row.half{
-  height: 30vh;
-  display:flex;
-  flex-direction: column; 
-}
-
-.row.double{
-  display:flex;
+.row.double > [class*='col'] {
   height: 60vh;
-}
-
-
- .row > [class*='col'] {
-     flex-direction: column;
-     display: flex;
-     
-}
-
-
-
- .row > [class*='col'].border {
-     border-style: solid;
-     border-color: white;
-     border-width: 1px;
-     
-}
-
- .row > [class*='col'].border-right {
-      border-right: 1px solid white;
-     
-}
-
-
- .row.border-right {
-      border-right: 1px solid white;
-     
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /*
